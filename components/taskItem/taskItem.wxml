@@ -1,0 +1,14 @@
+<!--components/taskItem/taskItem.wxml-->
+<view class="task-item">
+  <image class="good" src="../../images/good_demo.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+  <view class="good-desc">
+    <view class="name">欧莱雅紧致锁水滋润</view>
+    <view class="coupon">满500减100</view>
+    <view class="price">
+      <text>价格：500</text>
+      <text>佣金：80</text>
+    </view>
+  </view>
+  <view class="apply-btn">申请</view>
+</view>
+  

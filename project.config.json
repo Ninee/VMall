@@ -6,7 +6,22 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"uglifyFileName": true
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.0",
@@ -28,6 +43,10 @@
 			"list": []
 		},
 		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
@@ -182,6 +201,55 @@
 					"name": "登录",
 					"pathName": "pages/auth/login/login",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "作品发布",
+					"pathName": "pages/task/release/release",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人主页",
+					"pathName": "pages/profile/profile",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 27,
+					"name": "文章详情",
+					"pathName": "pages/article/article",
+					"query": "url=https://www.baidu.com",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "任务详情",
+					"pathName": "pages/task/detail/detail",
+					"query": "url=https://www.baidu.com",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "开通vip",
+					"pathName": "pages/ucenter/vip/vip",
+					"query": "url=https://www.baidu.com",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "实名认证",
+					"pathName": "pages/ucenter/shiming/shiming",
+					"query": "url=https://www.baidu.com",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/ucenter/mine/mine",
+					"query": "url=https://www.baidu.com",
+					"scene": null
 				}
 			]
 		}

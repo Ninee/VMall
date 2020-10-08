@@ -1,0 +1,143 @@
+<view class="container">
+  <view class="HotSwiper" style="margin-top:{{windowHeight/45}}px">
+    <swiper circular="true" indicator-dots="true" autoplay="true" interval="6000" duration="500">
+      <block wx:for-items="{{banners}}" wx:key="{{id}}">
+        <navigator url="/pages/article/article?url={{item.link}}">
+          <swiper-item>
+            <view class="swiper-box">
+              <image src="{{item.image_src}}" mode="aspectFill" data-id="{{item.id}}" />
+            </view>
+          </swiper-item>
+        </navigator>
+      </block>
+      
+    </swiper>
+  </view>
+  
+  <view class="benefit">
+    <image src="http://cdn.lzhnb.com/vmiao_benefit.png" mode="widthFix" lazy-load="false" />
+  </view>
+  
+  <!--赛事专区开始-->
+  <!--
+  <view class="match">
+    <view class="header">
+      <image class="header-icon" src="../../images/home_honor.png" mode="widthFix" lazy-load="false" />
+      <view class="header-title">
+        比赛专区
+      </view>
+        
+    </view>
+    <view class="match-card">
+      <view class="title">
+        <view class="name">
+          初赛专区
+        </view>
+        <view class="time">
+          10.25-11.01
+        </view>
+      </view>
+      <view class="products">
+          <view class="line">
+          </view>
+          <view class="items-box">
+            <view class="item">
+              <image class="" src="http://cdn.lzhnb.com/vmaio_product1.jpg" mode="aspectFill" lazy-load="false" binderror="" bindload="" />
+              <view class="product-name">三只松鼠礼盒</view>
+            </view>
+            <view class="item">
+              <image class="" src="http://cdn.lzhnb.com/vmaio_product2.jpg" mode="aspectFill" lazy-load="false" binderror="" bindload="" />
+              <view class="product-name">colorkey空气唇釉</view>
+            </view>
+            <view class="item">
+              <image class="" src="http://cdn.lzhnb.com/vmaio_product3.jpg" mode="aspectFill" lazy-load="false" binderror="" bindload="" />
+              <view class="product-name">珀莱雅面膜</view>
+            </view>
+          </view>
+      </view>
+    </view>
+    <view class="match-card">
+      <view class="title">
+        <view class="name">
+          复赛专区
+        </view>
+        <view class="time">
+          11.07-12.01
+        </view>
+      </view>
+      <view class="products">
+          <view class="line">
+          </view>
+          <view class="items-box">
+            <view class="item">
+              <image class="" src="http://cdn.lzhnb.com/vmaio_product1.jpg" mode="aspectFill" lazy-load="false" binderror="" bindload="" />
+              <view class="product-name">三只松鼠礼盒</view>
+            </view>
+            <view class="item">
+              <image class="" src="http://cdn.lzhnb.com/vmaio_product2.jpg" mode="aspectFill" lazy-load="false" binderror="" bindload="" />
+              <view class="product-name">colorkey空气唇釉</view>
+            </view>
+            <view class="item">
+              <image class="" src="http://cdn.lzhnb.com/vmaio_product3.jpg" mode="aspectFill" lazy-load="false" binderror="" bindload="" />
+              <view class="product-name">珀莱雅面膜</view>
+            </view>
+          </view>
+      </view>
+    </view>
+      
+  </view>
+  -->
+  <!--赛事专区结束-->
+
+  <!--体验区开始-->
+  <view class="try">
+    <view class="header">
+      <image class="header-icon" src="../../images/home_heart.png" mode="widthFix" lazy-load="false" />
+      <view class="header-title">
+        体验专区
+      </view>
+    </view>
+    <view class="try-list">
+      <task-item></task-item>
+      <task-item></task-item>
+      <task-item></task-item>
+    </view>
+  </view>
+  <!--体验区结束-->
+
+  <!--会员区开始-->
+  <view class="try">
+    <view class="header">
+      <image class="header-icon" src="../../images/home_vip.png" mode="widthFix" lazy-load="false" />
+      <view class="header-title">
+        会员专区
+      </view>
+    </view>
+        <view class="sort">
+      <view class="sort-box">
+        <view class="item {{currentSortType == 'default' ? 'active' : ''}}" bindtap="openSortFilter" id="defaultSort">
+          <text class="txt">平台</text>
+        </view>
+        <view class="item by-price {{currentSortType == 'price' ? 'active' : ''}} {{currentSortOrder == 'asc'  ? 'asc' : 'desc'}}" bindtap="openSortFilter" id="priceSort">
+          <text class="txt">佣金</text>
+        </view>
+        <view class="item by-price {{currentSortType == 'price' ? 'active' : ''}} {{currentSortOrder == 'asc'  ? 'asc' : 'desc'}}" bindtap="openSortFilter" id="priceSort">
+          <text class="txt">领样人数</text>
+        </view>
+        <view class="item by-price {{currentSortType == 'category' ? 'active' : ''}}" id="categoryFilter">
+          <text class="txt">价格</text>
+        </view>
+      </view>
+      <view class="sort-box-category" wx-if="{{categoryFilter}}">
+        <view class="item {{item.checked ? 'active' : ''}}" wx:for="{{filterCategory}}" wx:key="id" data-category-index="{{index}}" bindtap="selectCategory">{{item.name}}</view>
+      </view>
+    </view>
+    <view class="scroll-list">
+      <task-item></task-item>
+      <task-item></task-item>
+      <task-item></task-item>
+    </view>
+  </view>
+  <!--会员区结束-->
+
+</view>

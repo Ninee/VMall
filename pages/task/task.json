@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "#FF1E78",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "zan-capsule": "/components/capsule/index",
+    "goodList": "/components/goodList/goodList",
+    "van-notice-bar": "/components/notice-bar/index",
+    "task-item": "/components/taskItem/taskItem"
+  }
+}

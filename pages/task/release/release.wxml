@@ -1,0 +1,82 @@
+<view class="container">
+    <view class="box">
+        <view class="process">
+            <view class="status">
+                <image class="icon" src="../../../images/task_circle_finished.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+                <view class="title">
+                    申请
+                </view>
+            </view>
+            <image class="arrow" src="../../../images/task_arrow_finished.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            <view class="status">
+                <image class="icon" src="../../../images/task_circle_finished.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+                <view class="title">
+                    购买
+                </view>
+            </view>
+            <image class="arrow" src="../../../images/task_arrow_finished.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            <view class="status">
+                <image class="icon" src="../../../images/task_circle_finished.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+                <view class="title">
+                    发布
+                </view>
+            </view>
+            <image class="arrow" src="../../../images/task_arrow_finished.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            <view class="status">
+                <image class="icon" src="../../../images/task_circle.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+                <view class="title">
+                    审核
+                </view>
+            </view>
+            <image class="arrow" src="../../../images/task_arrow.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            <view class="status">
+                <image class="icon" src="../../../images/task_circle.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+                <view class="title">
+                    完成
+                </view>
+            </view>
+        </view>
+        <view class="info">
+            提交作品链接
+        </view>
+        <!--
+        <view class="input-box">
+            <view class="label">
+                发布平台：
+            </view>
+              
+        </view>
+        -->
+        <view class="input-box">
+            <view class="label">
+                链接地址：
+            </view>
+              
+        </view>  
+        <view class="pic-box">
+            <view class="tips">
+                上传直播截图
+            </view>
+            <view>
+                <image class="upload-icon" src="../../../images/upload_pic.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            </view>
+              
+        </view>
+        <view class="pic-box">
+            <view class="tips">
+                上传直播数据截图
+            </view>
+            <view>
+                <image class="upload-icon" src="../../../images/upload_pic.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            </view>
+              
+        </view>
+          
+        <view class="submit-btn">
+            提交审核
+        </view>
+          
+    </view>
+      
+</view>
+  

@@ -1,0 +1,39 @@
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 16rpx;
+    border-radius: 8rpx;
+    margin: 2rpx 0;
+}
+.task-item .good {
+    width: 160rpx;
+    height: 160rpx;
+}
+.task-item .good-desc {
+    height: 160rpx;
+}
+.task-item .good-desc .name{
+    font-size: 28rpx;
+    font-weight: 500;
+    color: #232323;
+    line-height: 40rpx;
+    font-weight: bold;
+}
+.task-item .good-desc .coupon {
+    margin-top: 12rpx;
+}
+.task-item .good-desc .price {
+    margin-top: 24rpx;
+    font-size: 24rpx;
+    font-weight: 500;
+    color: #999999;
+    line-height: 34rpx;
+}
+.task-item .apply-btn {
+    background-color: #FF2D2D;
+    color: #ffffff;
+    padding: 4rpx 12rpx;
+    border-radius: 4rpx;
+}

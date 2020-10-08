@@ -1,0 +1,103 @@
+<view class="container">
+    <view class="info">
+        <view class="row1">
+            <image class="avatar" src="http://cdn.lzhnb.com/vmiao_profile_avatar.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            <view class="btns">
+                <image class="follow-btn" src="../../images/profile_follow.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+                <image class="support-btn" src="../../images/profile_support.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            </view>
+              
+        </view>
+        <view class="row2">
+            <view class="nickname">
+                Ros1e小肉丝
+            </view>
+            <image class="vip-tag" src="../../images/vip_tag.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            <image class="player-tag" src="../../images/player_tag.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />    
+        </view>
+        <view class="desc">
+                混油敏痘肌｜相机RP｜📮Ros1e0822@163.com
+        </view>
+        <view class="tags">
+        
+            <view class="tag">
+                女
+            </view>
+            <view class="tag">
+                广东海洋大学
+            </view>
+              
+        </view>
+          
+    </view>
+
+    <view class="card">
+        <view class="title">
+            平台信息
+        </view>
+        <view class="platform-item">
+            <image class="icon" src="../../images/social_xiaohongshu.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            <view>
+                <view class="detail">
+                    <view class="label">
+                    小红书:
+                    </view>
+                    <input class="link" value="https://www.xiaohongshu.com/user/profile/5bf902226f880b00015fe80f?xhsshare=CopyLink" type="text" disabled="true">
+                    </input>
+                    <image class="copy-btn" src="../../images/copy_btn.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+                        
+                </view>
+                <view class="data">
+                    <view class="data-item">
+                        粉丝：7.6W
+                    </view>
+                    <view class="data-item">
+                        获赞：49.9W
+                    </view> 
+                </view>
+                  
+            </view>
+              
+            
+               
+        </view>
+        <view class="platform-item">
+            <image class="icon" src="../../images/social_douyin.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            <view>
+                <view class="detail">
+                    <view class="label">
+                    抖音:
+                    </view>
+                    <input class="link" value="https://v.douyin.com/JDPBgRH/" type="text" disabled="true">
+                    </input>
+                    <image class="copy-btn" src="../../images/copy_btn.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+                        
+                </view>
+                <view class="data">
+                    <view class="data-item">
+                        粉丝：23.5W
+                    </view>
+                    <view class="data-item">
+                        获赞：129.2W
+                    </view> 
+                </view>
+                  
+            </view>
+               
+        </view>
+          
+    </view>
+    
+    <view class="work-card">
+        <view class="title">
+            代表作品
+        </view>
+        <view class="works">
+            <image class="work" src="http://cdn.lzhnb.com/vmiao_profile_work1.jpg" mode="aspectFill" lazy-load="false" binderror="" bindload="" />
+            <image class="work" src="http://cdn.lzhnb.com/vmiao_profile_work2.jpg" mode="aspectFill" lazy-load="false" binderror="" bindload="" />
+            <image class="work" src="http://cdn.lzhnb.com/vmiao_profile_work3.jpg" mode="aspectFill" lazy-load="false" binderror="" bindload="" />
+        </view>
+          
+    </view>
+</view>
+  

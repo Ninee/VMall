@@ -1,0 +1,154 @@
+page {
+  background-color: #F3F3F3;
+}
+.container .info {
+  padding: 16rpx 44rpx;
+  background-color: white;
+}
+.container .info .row1 {
+  padding-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.container .info .row1 .avatar {
+  width: 180rpx;
+  border-radius: 50%;
+
+}
+.container .info .row1 .btns .follow-btn {
+  width: 120rpx;
+  height: 50rpx;
+}
+
+.container .info .row1 .btns .support-btn {
+  margin-left: 24rpx;
+  width: 120rpx;
+  height: 50rpx;
+}
+
+.row2 {
+  margin-top: 30rpx;
+  display: flex;
+  align-items: flex-end;
+}
+
+.row2 .nickname {
+  color: #232323;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.row2 .vip-tag {
+  margin-left: 18rpx;
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.row2 .player-tag {
+  margin-left: 26rpx;
+  width: 48rpx;
+  height: 32rpx;
+}
+.info .desc {
+  margin-top: 16rpx;
+  color: #666666;
+  font-size: 22rpx;
+}
+.info .tags {
+  margin-top: 16rpx;
+  display: flex;
+}
+.info .tag {
+  margin-left: 16rpx;
+  background-color: #FFEDF2;
+  color: #FF5481;
+  border-radius: 4rpx;
+  font-size: 22rpx;
+  padding: 6rpx 12rpx;
+
+}
+.info .tag:first-child {
+  margin-left: 0;
+}
+.card {
+  margin-top: 24rpx;
+  padding: 20rpx 48rpx;
+  background-color: white;
+}
+.card .title {
+  color: #232323;
+  font-size: 28rpx;
+  font-weight: bold;
+  line-height: 28rpx;
+}
+
+.platform-item {
+  margin-top: 28rpx;
+  padding: 10rpx 0;
+  display: flex;
+  align-items: center;
+  border-bottom: solid #F0F0F0 2rpx;
+}
+
+.platform-item .icon {
+  width: 64rpx;
+  height: 64rpx;
+}
+.platform-item .detail {
+  display: flex;
+  align-items: center;
+}
+
+.platform-item .detail .label {
+  margin-left: 10rpx;
+  color: #232323;
+  font-size: 24rpx;
+  font-weight: bold;
+  width: 122rpx;
+  text-align: left;
+}
+
+.platform-item .detail .link {
+  width: 314rpx;
+}
+
+.platform-item .copy-btn {
+  margin-left: 14rpx;
+  width: 120rpx;
+}
+
+.platform-item .data {
+  display: flex;
+  margin-left: 10rpx;
+}
+.platform-item .data .data-item {
+  color: #232323;
+  font-size: 24rpx;
+  width: 168rpx;
+  line-height: 38rpx;
+  font-weight: bold;
+}
+.work-card {
+  margin-top: 24rpx;
+  background-color: white;
+}
+.work-card .title {
+  margin-left: 48rpx;
+  padding: 20rpx 0;
+  color: #232323;
+  font-size: 28rpx;
+  font-weight: bold;
+  line-height: 28rpx;
+}
+.work-card .works{
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-card .works .work {
+  width: 248rpx;
+  height: 330rpx;
+}

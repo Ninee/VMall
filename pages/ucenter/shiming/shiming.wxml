@@ -1,0 +1,6 @@
+<view class="shiming-page">
+  <image class="bg" src="../../../images/shimingrenzhengbg.png" mode="widthFix"></image>
+  <input class="input" placeholder="输入姓名" type="text" />
+  <input class="input" placeholder="输入身份证号码" type="idcard" />
+  <view class="submit-btn">提交认证</view>
+</view>

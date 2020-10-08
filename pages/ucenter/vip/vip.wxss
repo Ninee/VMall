@@ -1,0 +1,77 @@
+page {
+  background: #F3F3F3;
+  min-height: 100%;
+}
+.vip-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24rpx;
+}
+.vip-page .card {
+  margin-top: 24rpx;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 40rpx 0;
+}
+.vip-page .header {
+  margin-left: 48rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333333;
+  line-height: 40rpx;
+}
+.vip-page .goods {
+  display: flex;
+  padding: 32rpx;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.vip-page .good .photo{
+  width: 180rpx;
+}
+.vip-page .good .name {
+  font-size: 24rpx;
+  color: #666666;
+  line-height: 34rpx;
+}
+.vip-page .card .sub-header {
+  margin-left: 48rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #999999;
+  line-height: 34rpx;
+}
+.card .row {
+  margin-top: 40rpx;
+  display: flex;
+  padding: 0 52rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .row .item {
+  width: 200rpx;
+  text-align: center;
+}
+.card .row .item .icon{
+  width: 64rpx;
+  height: 64rpx;
+}
+.card .row .item .desc {
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #666666;
+  line-height: 36rpx;
+}
+.vip-page .vip-btn {
+  margin-top: 42rpx;
+  text-align: center;
+  width: 320rpx;
+  height: 80rpx;
+  background: #C90050;  
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 80rpx;
+}

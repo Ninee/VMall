@@ -1,0 +1,26 @@
+.shiming-page {
+}
+.shiming-page .bg {
+  width: 100%;
+  margin-bottom: 70rpx;
+}
+.shiming-page .input {
+  margin: 8rpx auto;
+  width: 660rpx;
+  height: 96rpx;
+  border-radius: 8rpx;
+  border: 2rpx solid #FF1E78;
+  padding: 0 20rpx;
+}
+.shiming-page .submit-btn {
+  margin: 170rpx auto;
+  text-align: center;
+  width: 400rpx;
+  height: 80rpx;
+  background: #FF1E78;
+  border-radius: 48rpx;
+  font-size: 36rpx;
+  color: #FFFFFF;
+  line-height: 80rpx;
+
+}

@@ -1,6 +1,6 @@
 // 以下是业务服务器API地址
 // 本机开发时使用
-var WxApiRoot = 'http://localhost:8080/wx/';
+var WxApiRoot = 'http://vmiao.me/api/';
 // 局域网测试使用
 // var WxApiRoot = 'http://192.168.0.101:8080/wx/';
 // 云平台上线时使用
@@ -8,6 +8,7 @@ var WxApiRoot = 'http://localhost:8080/wx/';
 // var WxApiRoot = 'https://www.menethil.com.cn/wx/';
 
 module.exports = {
+  TaskIndexUrl: WxApiRoot + 'task/index',  //任务广场首页数据
   IndexUrl: WxApiRoot + 'home/index', //首页数据接口
   CatalogList: WxApiRoot + 'catalog/index', //分类目录全部分类数据接口
   CatalogCurrent: WxApiRoot + 'catalog/current', //分类目录当前分类数据接口

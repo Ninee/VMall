@@ -1,0 +1,53 @@
+<!--pages/ucenter/vip/vip.wxml-->
+<view class="vip-page">
+  <view class="card">
+    <view class="header">购买下面任意商品即可享受会员权益：</view>
+    <view class="goods">
+      <view class="good">
+        <image class="photo" src="../../../images/good_demo.png" mode="widthFix"></image>
+        <view class="name">欧莱雅精致水润</view>
+      </view>
+      <view class="good">
+        <image class="photo" src="../../../images/good_demo.png" mode="widthFix"></image>
+        <view class="name">欧莱雅精致水润</view>
+      </view>
+      <view class="good">
+        <image class="photo" src="../../../images/good_demo.png" mode="widthFix"></image>
+        <view class="name">欧莱雅精致水润</view>
+      </view>
+    </view>
+    <view class="sub-header">商品描述</view>
+  </view>
+  <view class="card">
+    <view class="header">会员权益</view>
+    <view class="row">
+      <view class="item">
+        <image class="icon" src="../../../images/personal_vip.png" mode="widthFix"></image>
+        <view class="desc">会员专属任务</view>
+      </view>
+      <view class="item">
+        <image class="icon" src="../../../images/personal_qiangdan.png" mode="widthFix"></image>
+        <view class="desc">优先抢单</view>
+      </view>
+      <view class="item">
+        <image class="icon" src="../../../images/personal_tuisong.png" mode="widthFix"></image>
+        <view class="desc">专属任务推送</view>
+      </view>
+    </view>
+    <view class="row">
+      <view class="item">
+        <image class="icon" src="../../../images/personal_gaoyong.png" mode="widthFix"></image>
+        <view class="desc">高佣任务</view>
+      </view>
+      <view class="item">
+        <image class="icon" src="../../../images/personal_shiyong.png" mode="widthFix"></image>
+        <view class="desc">大牌优先试用</view>
+      </view>
+      <view class="item">
+        <image class="icon" src="../../../images/personal_tongdao.png" mode="widthFix"></image>
+        <view class="desc">专属客服通道</view>
+      </view>
+    </view>
+  </view>
+  <view class="vip-btn">马上购买￥299</view>
+</view>
